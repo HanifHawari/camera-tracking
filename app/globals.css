@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { background: #0f1117; color: #e2e8f0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+button, input { -webkit-tap-highlight-color: transparent; }
+.camera-grid { background-color: #111318; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 28px 28px; }
+.catalog-scrollbar { scrollbar-color: #2c3449 #181b24; scrollbar-width: thin; }
+.spin { animation: rotate 1s linear infinite; }
+@keyframes rotate { to { transform: rotate(360deg); } }
